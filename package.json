@@ -18,7 +18,7 @@
     "name": "Seven Yu",
     "email": "dofyyu@gmail.com"
   },
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/figlet": "^1.5.0",
     "@types/node": "^20.9.0",
