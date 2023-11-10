@@ -1,0 +1,32 @@
+{
+  "name": "node-cli-template",
+  "version": "1.0.0",
+  "description": "node cli template",
+  "main": "dist/index.js",
+  "bin": {
+    "nct": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "keywords": [
+    "template",
+    "node",
+    "cli"
+  ],
+  "author": {
+    "name": "Seven Yu",
+    "email": "dofyyu@gmail.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/figlet": "^1.5.0",
+    "@types/node": "^20.9.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "figlet": "^1.7.0"
+  }
+}
