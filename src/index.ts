@@ -2,7 +2,7 @@
 
 import { Command } from 'commander';
 import figlet from 'figlet';
-import { getPackageInfo } from './utils';
+import { getPackageInfo } from './utils/index.js';
 
 const [name, version, description] = getPackageInfo([
   'name',
